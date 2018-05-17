@@ -7,6 +7,7 @@ class MyController < ControllerBase
       render_content("hello cats!", "text/html")
     else
       redirect_to("/cats")
+      # redirect_to("/cats")
     end
   end
 end
